@@ -71,6 +71,26 @@ img {
 #main {
   flex: 1;
 }
+
+input,
+textarea {
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(30, 60, 90, 0.1);
+  transition: all 0.3s;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+input:hover,
+textarea:hover,
+textarea:focus,
+input:focus {
+  outline: none;
+  box-shadow: 0 6px 12px rgba(30, 60, 90, 0.2);
+  border-color: #87f;
+}
 </style>
 
 <script>
