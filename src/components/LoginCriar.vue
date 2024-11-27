@@ -1,9 +1,44 @@
 <template>
-  <p>Login criar</p>
+  <section>
+    <h2>Crie a sua conta</h2>
+    <transition>
+      <button v-if="!criar" class="btn" @click="criar = true">
+        Criar conta
+      </button>
+      <UsuarioForm v-else>
+        <button class="btn btn-form">Criar Usuario</button>
+      </UsuarioForm>
+    </transition>
+  </section>
 </template>
 
 <script>
-export default {};
+import UsuarioForm from "./UsuarioForm.vue";
+export default {
+  components: { UsuarioForm },
+  data() {
+    return {
+      criar: false,
+    };
+  },
+};
 </script>
 
-<style></style>
+<style scoped>
+h2 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-form {
+  max-width: 100%;
+}
+</style>
