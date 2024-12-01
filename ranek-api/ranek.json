@@ -21,6 +21,54 @@
       "numero": "25",
       "estado": "DF",
       "cidade": "Brasilia"
+    },
+    {
+      "id": "guilherme@gmail.com",
+      "nome": "gui",
+      "email": "guilherme@gmail.com",
+      "senha": "123",
+      "cep": "71880051",
+      "rua": "Quadra QN 7E Conjunto 1",
+      "numero": "11",
+      "bairro": "Riacho Fundo II",
+      "cidade": "Brasília",
+      "estado": "DF"
+    },
+    {
+      "id": "gabsbranco@gmail.com",
+      "nome": "gabs",
+      "email": "gabsbranco@gmail.com",
+      "senha": "1234",
+      "cep": "71880161",
+      "rua": "Quadra QN 8E Conjunto 1",
+      "numero": "1b",
+      "bairro": "Riacho Fundo II",
+      "cidade": "Brasília",
+      "estado": "DF"
+    },
+    {
+      "id": "mariana@origamid.com",
+      "nome": "mariana",
+      "email": "mariana@origamid.com",
+      "senha": "1234",
+      "cep": "71880051",
+      "rua": "Quadra QN 7E Conjunto 1",
+      "numero": "12",
+      "bairro": "Riacho Fundo II",
+      "cidade": "Brasília",
+      "estado": "DF"
+    },
+    {
+      "id": "pedro@origamid",
+      "nome": "pedro",
+      "email": "pedro@origamid",
+      "senha": "123",
+      "cep": "71880161",
+      "rua": "Quadra QN 8E Conjunto 1",
+      "numero": "2",
+      "bairro": "Riacho Fundo II",
+      "cidade": "Brasília",
+      "estado": "DF"
     }
   ],
   "produto": [
