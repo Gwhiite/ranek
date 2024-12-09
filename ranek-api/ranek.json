@@ -1,4 +1,50 @@
 {
+  "transacao": [
+    {
+      "comprador_id": "guibranco@gmail.com",
+      "vendedor_id": "guibranco@gmail.com",
+      "produto": {
+        "nome": "Formula 2 xututuuuu",
+        "preco": "9494949",
+        "descricao": "Borboleto tu tu tu tu max verstappen",
+        "fotos": null,
+        "vendido": "false",
+        "usuario_id": "guibranco@gmail.com",
+        "id": "bRNw4A2"
+      },
+      "endereco": {
+        "cep": "12345678",
+        "rua": "Rua Ali Longe",
+        "numero": "123",
+        "bairro": "Riacho Fundo II",
+        "cidade": "Brasilia",
+        "estado": "DF"
+      },
+      "id": 1
+    },
+    {
+      "comprador_id": "guiteste@gmail.com",
+      "vendedor_id": "andre@origamid.com",
+      "produto": {
+        "id": "notebook",
+        "nome": "Notebook",
+        "usuario_id": "andre@origamid.com",
+        "preco": "4999",
+        "vendido": "false",
+        "descricao": "Esse é um novo notebook.",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "71880161",
+        "rua": "Quadra QN 8E Conjunto 1",
+        "numero": "2",
+        "bairro": "Riacho Fundo II",
+        "cidade": "Brasília",
+        "estado": "DF"
+      },
+      "id": 2
+    }
+  ],
   "usuario": [
     {
       "id": "andre@origamid.com",
@@ -64,6 +110,18 @@
       "id": "pedro@origamid",
       "nome": "pedro",
       "email": "pedro@origamid",
+      "senha": "123",
+      "cep": "71880161",
+      "rua": "Quadra QN 8E Conjunto 1",
+      "numero": "2",
+      "bairro": "Riacho Fundo II",
+      "cidade": "Brasília",
+      "estado": "DF"
+    },
+    {
+      "id": "guiteste@gmail.com",
+      "nome": "gui teste",
+      "email": "guiteste@gmail.com",
       "senha": "123",
       "cep": "71880161",
       "rua": "Quadra QN 8E Conjunto 1",
@@ -181,6 +239,15 @@
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
       "fotos": null
+    },
+    {
+      "nome": "Formula 2 xututuuuu",
+      "preco": "9494949",
+      "descricao": "Borboleto tu tu tu tu max verstappen",
+      "fotos": null,
+      "vendido": "false",
+      "usuario_id": "guibranco@gmail.com",
+      "id": "bRNw4A2"
     }
   ]
 }

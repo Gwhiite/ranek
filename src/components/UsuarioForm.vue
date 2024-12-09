@@ -1,11 +1,13 @@
 <template>
   <form>
-    <label for="nome">Nome</label>
-    <input type="text" name="nome" id="nome" v-model="nome" />
-    <label for="email">Email</label>
-    <input type="email" name="email" id="email" v-model="email" />
-    <label for="senha">Senha</label>
-    <input type="password" name="senha" id="senha" v-model="senha" />
+    <div v-if="mostrarDadosLogin" class="usuario">
+      <label for="nome">Nome</label>
+      <input type="text" name="nome" id="nome" v-model="nome" />
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" v-model="email" />
+      <label for="senha">Senha</label>
+      <input type="password" name="senha" id="senha" v-model="senha" />
+    </div>
     <label for="cep">Cep</label>
     <input
       type="text"
@@ -48,6 +50,9 @@ export default {
     },
   },
   computed: {
+    mostrarDadosLogin() {
+      return !this.$store.state.login || this.$route.name === "usuario-editar";
+    },
     ...mapFields({
       fields: [
         "nome",
@@ -68,10 +73,15 @@ export default {
 </script>
 
 <style scoped>
-form {
+form,
+.usuario {
   display: grid;
   grid-template-columns: 80px 1fr;
   align-items: center;
+}
+
+.usuario {
+  grid-column: 1 / 3;
 }
 
 .button {
